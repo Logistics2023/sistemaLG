@@ -423,6 +423,8 @@ justify-content: center;}
 
 }
 .negrita {
+   background-color: #294B98;
+   color: white;
 }
 
 @media (max-width: 750px) {
