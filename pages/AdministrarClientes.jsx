@@ -172,13 +172,13 @@ function Users() {
 
 
 
-                { user && userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' &&  <div className={style.blueContainer}>
+               <div className={style.blueContainer}>
                         <span className={style.blue}>Register</span>
 
                         <span className={`${style.circleBlueContainer} ${userDB.login ? '' : style.circleLeadContainer}`} onClick={resetAutomatico}>
                             <span className={`${style.circleBlue} ${userDB.login ? '' : style.circleLead}`}></span>
                         </span>
-                    </div>}
+                    </div>
 
                     <div className={style.containerIMG}>
                         <Image src="/logo.svg" width="350" height="250" alt="User" />
