@@ -172,7 +172,7 @@ function Users() {
 
 
 
-               <div className={style.blueContainer}>
+           {user && userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' &&    <div className={style.blueContainer}>
                         <span className={style.blue}>Register</span>
 
                         <span className={`${style.circleBlueContainer} ${userDB.login ? '' : style.circleLeadContainer}`} onClick={resetAutomatico}>
@@ -183,7 +183,7 @@ function Users() {
                     <div className={style.containerIMG}>
                         <Image src="/logo.svg" width="350" height="250" alt="User" />
                     </div>
-
+}
 
 
 
