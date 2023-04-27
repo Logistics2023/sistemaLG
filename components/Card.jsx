@@ -13,7 +13,7 @@ export default function Card(props) {
                 style={"buttonPrimary"}
                 click={props.click}>
                 {props.buttonText}
-            </Button>
+            </Button> 
         </div>
     )
 }
