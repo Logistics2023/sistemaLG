@@ -1,6 +1,7 @@
 export const firebaseConfig = {
   apiKey: "AIzaSyBVnLji3yKiQgNZJNR9HWG_GLWPr-dFvvw",
   authDomain: "logisticsgear-62f44.firebaseapp.com",
+  databaseURL: "https://logisticsgear-62f44-default-rtdb.firebaseio.com",
   projectId: "logisticsgear-62f44",
   storageBucket: "logisticsgear-62f44.appspot.com",
   messagingSenderId: "182577358533",
