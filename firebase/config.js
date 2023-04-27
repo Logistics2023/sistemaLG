@@ -1,13 +1,12 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyBUMuP90iKK8ZxTYlxgCEBnQqXLdmFBA2E",
-  authDomain: "logistics-gear-398bc.firebaseapp.com",
-  databaseURL: "https://logistics-gear-398bc-default-rtdb.firebaseio.com",
-  projectId: "logistics-gear-398bc",
-  storageBucket: "logistics-gear-398bc.appspot.com",
-  messagingSenderId: "891176288875",
-  appId: "1:891176288875:web:a2d01ab1bb9b03a550672e"
+  apiKey: "AIzaSyBVnLji3yKiQgNZJNR9HWG_GLWPr-dFvvw",
+  authDomain: "logisticsgear-62f44.firebaseapp.com",
+  projectId: "logisticsgear-62f44",
+  storageBucket: "logisticsgear-62f44.appspot.com",
+  messagingSenderId: "182577358533",
+  appId: "1:182577358533:web:3321853f8af6a6f0dbb2ac",
+  measurementId: "G-F10P97MQR8"
 };
-
   
 
 
