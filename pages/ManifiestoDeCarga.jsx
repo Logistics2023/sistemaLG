@@ -157,7 +157,7 @@ function generateNO() {
 
                         <div className={style.itemsThree}>
                             <div>
-                                <label htmlFor="">MANISFESTO DE LA CARGA</label>
+                                <label htmlFor="">MANIFIESTO DE LA CARGA</label>
                             </div>
                             <div>
                                 <input type="text" className={style.negrita} value='NO' placeholder='' />
@@ -182,7 +182,7 @@ function generateNO() {
 
                         <div className={style.itemsTwo}>
                             <div>
-                                <label htmlFor="">CONSIGNARIO</label>
+                                <label htmlFor="">CONSIGNATARIO</label>
                             </div>
                             <div>
                                 <input type="text" name={"NOMBRE CONSIGNATARIO"} onChange={handleEventChange} placeholder='NOMBRE' />
