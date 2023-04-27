@@ -179,11 +179,11 @@ function Users() {
                             <span className={`${style.circleBlue} ${userDB.login ? '' : style.circleLead}`}></span>
                         </span>
                     </div>
-
+}
                     <div className={style.containerIMG}>
                         <Image src="/logo.svg" width="350" height="250" alt="User" />
                     </div>
-}
+
 
 
 
