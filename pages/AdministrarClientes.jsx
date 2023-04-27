@@ -167,7 +167,7 @@ function Users() {
     return (
         <Layout>
            <div className={style.container}>
-                {userDB && userDB.users && <main className={style.main}>
+                {user && userDB && userDB.users && <main className={style.main}>
 
 
 
