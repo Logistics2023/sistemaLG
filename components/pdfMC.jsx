@@ -229,7 +229,7 @@ function PDFView({ click }) {
                         <View style={styles.items}>
                             <View style={styles.viewKeyValue}>
                                 <Text style={styles.key}>REMITENTE</Text>
-                                <Text style={styles.key}>MANISFESTO DE LA CARGA</Text>
+                                <Text style={styles.key}>MANIFIESTO DE LA CARGA</Text>
                             </View>
                             <View style={styles.viewKeyValue}>
                                 <View style={styles.viewKeyValue}>
@@ -270,7 +270,7 @@ function PDFView({ click }) {
 
                             <Br />
                             <View style={styles.viewKeyValue}>
-                                <Text style={styles.key}>CONSIGNARIO</Text>
+                                <Text style={styles.key}>CONSIGNATARIO</Text>
                                 <Text style={styles.key}>TRANSPORTADOR</Text>
                             </View>
                             <View style={styles.viewKeyValue}>
