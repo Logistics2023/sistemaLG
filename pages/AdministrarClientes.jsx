@@ -166,13 +166,13 @@ function Users() {
 
     return (
         <Layout>
-            <div className={style.container}>
+           <div className={style.container}>
                 {userDB && userDB.users && <main className={style.main}>
 
 
 
 
-                {  userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' &&  <div className={style.blueContainer}>
+                { user && userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' &&  <div className={style.blueContainer}>
                         <span className={style.blue}>Register</span>
 
                         <span className={`${style.circleBlueContainer} ${userDB.login ? '' : style.circleLeadContainer}`} onClick={resetAutomatico}>
@@ -188,7 +188,7 @@ function Users() {
 
 
 
-                    {userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' && <div className={style.containerButtons}>
+                    {user && userDB && userDB.admins && userDB.admins[user.uid] && userDB.admins[user.uid].rol === 'Admin' && <div className={style.containerButtons}>
                         <Button style='buttonTransparent' click={redirect}>
                             Datos de la empresa
                         </Button>
@@ -196,7 +196,7 @@ function Users() {
                     </div>}
                     <br />
                     <input className={style.filter} onChange={handlerOnChange} placeholder='Buscar Por CI' />
-                    {userDB && userDB.users && <ul className={style.list}>
+                    {user && userDB && userDB.users && <ul className={style.list}>
                         {Object.keys(userDB.users).map((item, i) => {
                             if (userDB.users[item].ci.includes(filter) && user.uid !== item) {
                                 return <div className={style.itemsAdmin} key={i}>
